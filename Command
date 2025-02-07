@@ -1,0 +1,26 @@
+# validate the created Instance Profile
+# Create the EC2 instance in a public subnet, attach the Instance Profile to it.
+# Validate the permissioning on the EC2 instance
+
+# aws ec2 describe-instances
+
+# aws s3 ls
+
+# aws s3api create-bucket \
+#    --bucket <bucket-name> \
+#    --region <region> -- \
+#    create-bucket-configuration LocationConstraint=<region>
+
+
+# aws s3api create-bucket \
+#    --bucket <bucket-name> \
+#    --region <region> -- \
+#    create-bucket-configuration LocationConstraint=<region>
+
+# aws s3api create-bucket \
+#    --bucket sctp-ce9-tfstate \
+#    --region us-east-1 -- \
+#    create-bucket-configuration LocationConstraint=us-east-1
+
+# aws s3api create-bucket --bucket ws-bucket --region us-east-1
+

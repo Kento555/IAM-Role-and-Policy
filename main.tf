@@ -31,10 +31,18 @@ data "aws_iam_policy_document" "policy_example" {
  }
  statement {
    effect    = "Allow"
-   actions   = ["s3:ListBucket"]
+   actions   = ["s3:ListBucket"]   
+   resources = ["*"]
+ }
+ statement {
+   effect    = "Allow"
+   actions   = ["s3:ListAllMyBuckets"]   
    resources = ["*"]
  }
 }
+# s3:ListBucket allows listing the contents of a specific bucket.
+# s3:ListAllMyBuckets is needed to list all buckets in your AWS account.
+
 resource "aws_iam_policy" "policy_example" {
  name = "${local.name_prefix}-policy-example"
 
