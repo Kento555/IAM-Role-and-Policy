@@ -20,10 +20,10 @@ AWS console Outcome:
 aws dynamodb scan \
      --table-name ws-tf-bookinventory \
      --region us-east-1
-     --exclusive-start-key "LastEvaluatedKeyHere"
+     <!-- --exclusive-start-key "LastEvaluatedKeyHere" -->
 
 Terminal outcome:
- 
+
 ![alt text](image-3.png)
 
 AWS Console Outcome:
