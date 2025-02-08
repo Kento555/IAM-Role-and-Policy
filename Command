@@ -24,3 +24,4 @@
 
 # aws s3api create-bucket --bucket ws-bucket --region us-east-1
 
+# vpc_id        = "vpc-012814271f30b4442" # ce9-coaching-shared-vpc
