@@ -22,7 +22,8 @@ aws dynamodb scan \
      --region us-east-1
      --exclusive-start-key "LastEvaluatedKeyHere"
 
-Terminal outcome: 
+Terminal outcome:
+ 
 ![alt text](image-3.png)
 
 AWS Console Outcome:
